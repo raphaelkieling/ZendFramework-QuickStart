@@ -1,0 +1,10 @@
+<br /><br />
+<div id="view-content">
+	<p>View script for controller <b>Guestbook</b> and script/action name <b>index</b></p>
+
+	<ul>
+		<?php foreach($this->entries as $entry): ?>
+			<li><?php echo $entry->email ?></li>
+		<?php endforeach ?>
+	</ul>
+</div>
